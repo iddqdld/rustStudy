@@ -23,7 +23,7 @@ fn display_result(result: bool) {
 
 fn main() {
     let var = 101;
-    let result = if var > 100 {
+    let result = if var > 100 {    // let result = var > 100; also works and should be iplemented asa a shortcut, but note says we shoud've used an if expression.
         true
     } else {
         false
